@@ -4,10 +4,10 @@ namespace Number_3._1
 {
     class Worker
     {
-        public string Name;
-        public string Surname;
-        public int Rate;
-        public int days;
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public int Rate { get; set; }
+        public int days { get; set; }
         public void GetSalary()
         {
             int zp = Rate * days;
