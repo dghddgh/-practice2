@@ -4,9 +4,10 @@ namespace Number_2._2
 {
     class Train
     {
-        public string Destination;
-        public int TrainNumber;
-        public DateTime DepartureTime;
+        public string Destination { get; set; }
+        public int TrainNumber { get; set; }
+        public DateTime DepartureTime { get; set; }
+
         public void Information(int Input)
         {
             if (Input == TrainNumber)
