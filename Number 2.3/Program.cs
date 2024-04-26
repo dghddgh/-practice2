@@ -10,7 +10,6 @@ class Worker
         return Rate * days;
     }
 }
-
 class Program
 {
     static void Main()
