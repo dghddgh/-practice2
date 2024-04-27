@@ -254,7 +254,7 @@ static void LookCar()
     {
         using (NpgsqlConnection connection = OpenConnection())
         {
-            string query = "SELECT * FROM car"; // Replace 'car_view' with the actual name of your view 
+            string query = "SELECT * FROM car"; 
             using (NpgsqlCommand command = new NpgsqlCommand(query, connection))
             {
                 using (NpgsqlDataReader reader = command.ExecuteReader())
@@ -292,7 +292,7 @@ static void LookCar()
     {
         using (NpgsqlConnection connection = OpenConnection())
         {
-            string query = "SELECT * FROM driver"; // Replace 'car_view' with the actual name of your view 
+            string query = "SELECT * FROM driver"; 
             using (NpgsqlCommand command = new NpgsqlCommand(query, connection))
             {
                 using (NpgsqlDataReader reader = command.ExecuteReader())
