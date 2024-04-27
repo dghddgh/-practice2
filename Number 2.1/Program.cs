@@ -4,10 +4,10 @@ namespace Number_2._1
 {
     class Student
     {
-        public string LastName;
-        public DateTime DateOfBirth;
-        public string GroupNumber;
-        public int Performance;
+        public string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public string GroupNumber { get; set; }
+        public int Performance { get; set; }
 
         public void lastName(string newLastName)
         {
