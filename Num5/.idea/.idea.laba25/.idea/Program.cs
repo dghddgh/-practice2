@@ -5,7 +5,7 @@ class Program
 {
     static NpgsqlConnection OpenConnection()
     {
-        string connectionString = @"Host=10.30.0.137;Username=gr622_dghddgh;Password=voqgfhjkm;Database=gr622_dghddgh";
+        string connectionString = @"Host=10.30.0.137;Username=gr622_dghddgh;Password=;Database=gr622_dghddgh";
         NpgsqlConnection connection = new NpgsqlConnection(connectionString);
         connection.Open();
         return connection;
